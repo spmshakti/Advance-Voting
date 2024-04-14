@@ -27,6 +27,7 @@ function News2() {
                   src={item.urlToImage}
                   alt="Slide"
                 />
+                <div className=''>{item.description}</div>
                 <Carousel.Caption>
                   {/* <h3>{item.author}</h3> */}
                   {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
