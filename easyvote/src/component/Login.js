@@ -7,13 +7,13 @@ export default function Login() {
       style={{
         backgroundImage: "url('/Background.svg')",
         backgroundSize: "cover",
-        backgroundColor: "rgba(255, 255, 255, 0.5)", // Adjust opacity as needed
+        backgroundColor: "rgba(255, 255, 255, 0.5)", 
       }}
       className="flex justify-center items-center h-screen"
     >
-      {/* Your login content goes here */}
+      {}
       <div className="bg-white bg-opacity-70 rounded-md shadow-md flex w-1/2 mx-40">
-        {/* Left Section */}
+        {}
         <div className="flex flex-col justify-center items-center rounded-l-md p-10">
           <h2 className="font-extrabold text-lg mb-4">Welcome Back</h2>
           <div className="mb-10">
@@ -56,7 +56,7 @@ export default function Login() {
           
         </div>
 
-        {/* Right Section */}
+        {}
         <div className="rounded-r-md w-1/2 flex justify-center items-center" ><img
                   src="/loginLeft.svg"
                   className="h-[400px] w-[400px] ml-16"

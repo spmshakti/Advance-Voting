@@ -1,6 +1,6 @@
 <div className="flex justify-center items-center h-screen">
       <div className="bg-white rounded-md shadow-md flex" style={{ width: "100%", height: "100%" }}>
-        {/* Left Section */}
+        {}
         <div className="flex flex-col justify-center items-center bg-gray-300 rounded-l-md p-6 w-2/3">
           <h2 className="font-extrabold text-lg mb-4">Welcome Back</h2>
           <div className="mb-10">
@@ -23,7 +23,7 @@
           <img src="/path/to/image" className="w-7 h-8" alt="logo" />
         </div>
 
-        {/* Right Section */}
+        {}
         <div className="bg-indigo-900 rounded-r-md w-1/2"></div>
       </div>
     </div>

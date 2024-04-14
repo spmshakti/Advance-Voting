@@ -10,8 +10,8 @@ const LandingPage = () => {
         <h1 className="font-bold text-4xl text-blue-700">EasyVote</h1>
         <div className='font-bold'>
           <NavLink to="contact" className="mx-2">Contact</NavLink>
-          <NavLink to="contact" className="mx-2">About</NavLink>
-          <NavLink to="contact" className="mx-2">Register</NavLink>
+          <NavLink to="about" className="mx-2">About</NavLink>
+          <NavLink to="signup" className="mx-2">Register</NavLink>
           <button type="submit" className="mx-2 bg-blue-500  px-4 py-2 rounded"><NavLink to="/login" className="text-white">Login</NavLink></button>
         </div>
       </nav>
