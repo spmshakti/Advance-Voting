@@ -1,6 +1,7 @@
-import React from 'react';
-import News2 from './News.2';
+import {React, link} from 'react';
+import News2 from './News2';
 import Login from './Login';
+import { NavLink } from 'react-router-dom';
 
 const LandingPage = () => {
   return (
@@ -8,10 +9,10 @@ const LandingPage = () => {
       <nav className="p-6 bg-white flex justify-between">
         <h1 className="font-bold text-4xl text-blue-700">EasyVote</h1>
         <div className='font-bold'>
-          <a href="#" className="mx-2">Contact Us</a>
-          <a href="#" className="mx-2">About Us</a>
-          <a href="#" className="mx-2">Register</a>
-          <button className="mx-2 bg-blue-500 text-white px-4 py-2 rounded">Login</button>
+          <NavLink to="contact" className="mx-2">Contact</NavLink>
+          <NavLink to="contact" className="mx-2">About</NavLink>
+          <NavLink to="contact" className="mx-2">Register</NavLink>
+          <button type="submit" className="mx-2 bg-blue-500  px-4 py-2 rounded"><NavLink to="/login" className="text-white">Login</NavLink></button>
         </div>
       </nav>
       <main className="p-6">
