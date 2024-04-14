@@ -25,6 +25,17 @@ To install the Advanced Voting System, follow these steps:
 6. Start the server: `npm start`
 
 
+### Tech stack used
+1.React.js
+2.HTML
+3.Tailwindcss
+4.Figma
+5.PostgreSQL
+6.JavaScript
+7.API
+
+### YouTubeVideo_Link
+https://youtu.be/mA16QQNZu-k
 ### Usage
 
 To use the Advanced Voting System:
